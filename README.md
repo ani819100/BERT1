@@ -242,9 +242,9 @@ in the sentence.
 
 BERT was built upon recent work in pre-training contextual representations —
 including [Semi-supervised Sequence Learning](https://arxiv.org/abs/1511.01432),
-[Generative Pre-Training](https://blog.openai.com/language-unsupervised/),
+[Generative Pre-Training](https://openai.com/research/language-unsupervised),
 [ELMo](https://allennlp.org/elmo), and
-[ULMFit](http://nlp.fast.ai/classification/2018/05/15/introducting-ulmfit.html)
+[ULMFit](https://nlp.fast.ai/classification/2018/05/15/introducing-ulmfit.html)
 — but crucially these models are all *unidirectional* or *shallowly
 bidirectional*. This means that each word is only contextualized using the words
 to its left (or right). For example, in the sentence `I made a bank deposit` the
